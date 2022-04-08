@@ -1,29 +1,31 @@
 def anagramaSolucion2(cadena1,cadena2):
   unaLista1 = list(cadena1)
+  print('1')
   unaLista2 = list(cadena2)
-
+  print('2')
   unaLista1.sort()
+  print('3')
   unaLista2.sort()
-
-  print(unaLista1)
-  print(unaLista2)
-  
+  print('4')
+    
   pos = 0
+  print('5')
   coincide = True
-
+  print('6')
   while pos < len(cadena1) and coincide:
-    print("into while")
+    print('7 y 8')
     if unaLista1[pos]==unaLista2[pos]:
-      print("into while -> if")
-      print(unaLista1[pos])
-      print(unaLista2[pos])
+      print('9')
       pos = pos + 1
+      print('10')
     else:
+      print('11')
       coincide = False
-      print("into while -> else ")
+  print('12')
   return coincide
 
 # *** Test 1 Cobertura de sentencia ***
 print("*** Test 1 ***")
-anagramaSolucion2('pepa', 'pena  ')
+anagramaSolucion2('pepa', 'pena')
 # ***  Caminos 100 %  ***
+#1-2-3-4-5-6-7 y 8-9-10-7 y 8-9-10-7 y 8-11-12
