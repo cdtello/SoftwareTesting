@@ -36,8 +36,15 @@ def anagramaSolucion1(cadena1,cadena2):
 
 
 # *** Test 1 Cobertura de sentencia ***
-print("*** Test 1 ***")
-anagramaSolucion1('pepe', 'pera')
+#print("*** Test 1 ***")
+#anagramaSolucion1('pepe', 'pera')
 # ***  Caminos 100 %  ***
 
 #1-2-3-4 y 5-6-7-8 y 9-10-11-13-14-16-4 y 5-6-7-8 y 9-12-8 y 9-10-11-13-14-16-4 y 5-6-7-8 y 9-12-8 y 9-12-8 y 9-12-8 y 9-12-15-16-17
+
+
+print("*** Test 2 ***")
+anagramaSolucion1('fresa', 'frase')
+
+#print("*** Test 3 ***")
+#anagramaSolucion1('roca', 'caro')
