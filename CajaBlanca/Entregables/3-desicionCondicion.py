@@ -26,21 +26,18 @@ def anagramaSolucion2(cadena1,cadena2):
 
 # *** Test 1 Cobertura de sentencia ***
 #print("*** Test 1 ***")
-#anagramaSolucion2('pepa', 'pena')
+print(anagramaSolucion2('pepa', 'pena'))
 # ***  Caminos 100 %  ***
-#1-2-3-4-5-6-7 y 8-9-10-7 y 8-9-10-7 y 8-11-12
+#1-2-3-4-5-6-7-8-9-10-7-8-9-10-7-8-11-12
 
 # *** Test 2 Cobertura de Desicion ***
-#print("*** Test 2 *** Siempre IF")
-#anagramaSolucion2('asado', 'osada')
-#1-2-3-4-5-6-7 y 8-9-10-7 y 8-9-10-7 y 8-9-10-7 y 8-9-10-7 y 8-9-10-12
+print("*** Test 2 *** Siempre IF")
+print(anagramaSolucion2('asado', 'osada'))
+#1-2-3-4-5-6-7-8-9-10-7-8-9-10-7-8-9-10-7-8-9-10-7-8-9-10-12
 
 # *** Test 3 Cobertura de Desicion ***
-#print("*** Test 2 *** Siempre Else")
-#anagramaSolucion2('oso', 'ada')
-#1-2-3-4-5-6-7 y 8-11-12
+print("*** Test 3 *** Siempre Else")
+print(anagramaSolucion2('oso', 'ada'))
+#1-2-3-4-5-6-7-8-11-12
 
-# *** Test 3 Cobertura de Desicion ***
-#print("*** Test 2 *** Siempre Else")
-#anagramaSolucion2('oso', 'ada')
-#1-2-3-4-5-6-7 y 8-11-12
+

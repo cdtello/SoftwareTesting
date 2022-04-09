@@ -34,6 +34,6 @@ def anagramaSolucion4(cadena1,cadena2):
 
 # *** Test 1 Cobertura de sentencia ***
 print("*** Test 1 ***")
-anagramaSolucion4('pepe', 'pedro')
+print(anagramaSolucion4('pepe', 'pedro'))
 # ***  Caminos 100 %  ***
-#1-2-3-4-5-3-4-5-3-4-5-3-4-5-6-7-8-6-7-8-6-7-8-6-7-8-6-7-8-9-10-11 y 12-13-14-11 y 12-13-14-11 y 12-13-14-11 y 12-15-16
+#1-2-3-4-5-3-4-5-3-4-5-3-4-5-6-7-8-6-7-8-6-7-8-6-7-8-6-7-8-9-10-11-12-13-14-11-12-13-14-11-12-13-14-11-12-15-16
